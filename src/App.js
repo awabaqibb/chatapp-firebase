@@ -52,7 +52,9 @@ function SignIn() {
 
   return (
     <>
-      <button onClick={signInWithGoogle}>Sign in with Google</button>
+      <button onClick={signInWithGoogle}>
+        Sign in with Googleeeeeeeeeeeeeeeeeee
+      </button>
     </>
   );
 }
