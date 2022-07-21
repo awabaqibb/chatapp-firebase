@@ -10,11 +10,17 @@ import { useCollectionData } from "react-firebase-hooks/firestore";
 
 firebase.initializeApp({
   apiKey: "AIzaSyDjRsR0IpzAkc6tQ326v2au9HQqOIGZiQs",
+
   authDomain: "chatapp-579bc.firebaseapp.com",
+
   projectId: "chatapp-579bc",
+
   storageBucket: "chatapp-579bc.appspot.com",
+
   messagingSenderId: "637745928297",
+
   appId: "1:637745928297:web:688372ae64a3438005eaf8",
+
   measurementId: "G-ZCX7HPZNG3",
 });
 
@@ -40,15 +46,13 @@ function SignIn() {
   //sign in function
   const signInWithGoogle = () => {
     const provider = new firebase.auth.GoogleAuthProvider();
+
     auth.signInWithPopup(provider);
   };
 
   return (
     <>
       <button onClick={signInWithGoogle}>Sign in with Google</button>
-      <p>
-        Do not violate the community guidelines or you will be banned for life!
-      </p>
     </>
   );
 }
