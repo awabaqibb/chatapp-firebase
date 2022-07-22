@@ -100,12 +100,15 @@ button:disabled {
 
 .sign-in {
   color: #282c34;
-  background: white;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-items: center;
-  max-width: 400px;
+  height: 100vh;
   margin: 0 auto;
+}
+
+button h2 {
+  color: white;
 }
 
 ul,
